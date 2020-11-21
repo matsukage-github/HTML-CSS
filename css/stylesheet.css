@@ -1,0 +1,106 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  opacity: 0.7;
+}
+
+main {
+  background-color: black;
+}
+
+main h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+main .top-visual {
+  background-image: url(../images/background-road.jpg);
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+main .top-visual h1 {
+  background-color: rgba(255, 235, 205, 0.4);
+  display: inline-block;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+}
+
+main .introduction {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .introduction h1 {
+  font-family: serif;
+  margin: 50px 0 30px 0;
+  color: white;
+  text-align: center;
+}
+
+main .introduction .card {
+  padding: 0;
+  background-color: #CCCCCC;
+  border: 1px solid black;
+}
+
+main .introduction .card h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+main .introduction .card img {
+  width: 100%;
+}
+
+main .news-topic {
+  height: 600px;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main .news-topic h3 {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+main .news-topic .news-list {
+  border-top: 1px dotted #CCCCCC;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+main .news-topic .news-list .news-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 10px solid #CCCCCC;
+  margin: 20px 0 30px 40px;
+  height: 50px;
+}
+
+main .news-topic .news-list .news-detail .date {
+  margin: 0 10px;
+}
+
+main form {
+  padding: 0 20% 30px 20%;
+  color: white;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #CCCCCC;
+}
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,0 +1,103 @@
+@import "variables";
+
+*{
+    box-sizing: border-box;
+}
+
+// header
+header{
+    opacity: 0.7;
+}
+
+// main
+main{
+    background-color: $mainColor;
+    h3{
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    // top-visual
+    .top-visual{
+        background-image: url(../images/background-road.jpg);
+        background-size: cover;
+        height: 300px;
+        position: relative;
+        h1{
+            background-color: rgba(255, 235, 205, 0.4);
+            display: inline-block;
+            padding: 20px;
+            position: absolute;
+            top: 50px;
+            left: 30%;
+        }
+    }
+    
+    // introduction
+    .introduction{
+        width: 100%;
+        margin: 0 auto;
+        h1{
+            font-family: serif;
+            margin: 50px 0 30px 0;
+            color: $fontColor;
+            text-align: center;
+        }
+        
+        // card
+        .card{
+            padding: 0;
+            background-color: $newsColor;
+            border: 1px solid $mainColor;
+            h4{
+                font-weight: bold;
+                text-align: center;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+    // news-topic
+    .news-topic{
+        height: 600px;
+        color: $fontColor;
+        width: 70%;
+        margin: 0 auto;
+        h3{
+            text-align: center;
+            margin-top: 50px;
+            padding-bottom: 30px;
+        }
+        
+        // news-list
+        .news-list{
+            border-top: 1px dotted $newsColor;
+            border-bottom: 1px dotted $newsColor;
+            .news-detail{
+                display: flex;
+                align-items: center;
+                border-left: 10px solid $newsColor;
+                margin: 20px 0 30px 40px;
+                height: 50px;
+                .date{
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+    
+    // contact form
+    form{
+        padding: 0 20% 30px 20%;
+        color: $fontColor;
+    }
+
+// footer
+}
+footer{
+    padding: 10px 0;
+    text-align: center;
+    background-color: $newsColor;
+}
